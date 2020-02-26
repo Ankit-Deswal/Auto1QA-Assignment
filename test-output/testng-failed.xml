@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [searchTest]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentReport.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="searchTest.searchTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="priceDescTest"/>
+        </methods>
+      </class> <!-- searchTest.searchTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [searchTest] -->
